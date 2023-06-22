@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+            div{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(66, 193, 224);
+                text-align: center;
+            }
+
+            #Translate:hover{
+               -webkit-transform:Translate(100px,200px) ;
+               -moz-transform: Translate(100px,200px);
+               -ms-transform: Translate(100px,200px);
+               -o-transform: Translate(100px,200px);
+                transform: Translate(100px,200px);
+                transition-duration: 3s;
+                background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+            #Rotate:hover{
+               -webkit-transform:rotate(360deg) ;
+               -moz-transform:rotate(360deg);
+               -ms-transform:rotate(360deg);
+               -o-transform:rotate(360deg);
+                transform: rotate(360deg);
+                transition-duration: 3s;
+                background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+
+            #Rotate3D:hover{
+               -webkit-transform:rotate3d(1,1,0,360deg) ;
+               -moz-transform:rotate3d(1,1,0,360deg);
+               -ms-transform:rotate3d(1,1,0,360deg);
+               -o-transform:rotate3d(1,1,0,360deg);
+                transform: rotate3d(1,1,0,360deg);
+                transition-duration: 3s;
+                background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+            #skew:hover{
+               -webkit-transform:skew(45deg) ;
+               -moz-transform:skew(45deg);
+               -ms-transform:skew(45deg);
+               -o-transform:skew(45deg);
+                  transform:skew(45deg);
+                  transition-duration: 3s;
+                  background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+            #scale:hover{
+               -webkit-transform:scale(1.5,0.5);
+               -moz-transform:scale(1.5,0.5);
+               -ms-transform:scale(1.5,0.5);
+               -o-transform:scale(1.5,0.5);
+                  transform:scale(1.5,0.5);
+                  transition-duration: 3s;
+                  background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+            #opacity:hover
+            {
+                background-color: aliceblue;
+                opacity: 0.8;
+                transition-duration: 3s;
+                color:rgb(255, 153, 10);
+            }
+            #RGBA:hover
+            {
+                background-color:rgb(128, 128,0.5);
+                transition-duration: 3s;
+                color:rgb(255, 153, 10);
+            }
+            #boxshadow:hover
+            {
+                box-shadow:20px 20px 20px rgb(255, 153, 10);
+                transition-duration: 3s;
+            }
+            #textshadow:hover
+            {
+                text-shadow:5px 5px 5px rgb(124, 0, 52);
+                transition-duration: 3s;
+            }
+            #borderradius:hover
+            {
+                border-radius: 50%;
+                transition-duration: 3s;
+                background-color:rgb(66, 193, 224);
+                color:rgb(255, 153, 10);
+            }
+            #overflow:hover{overflow:hidden}
+            
+            
+
+    </style>
+</head>
+<body>
+    
+    <div id="Translate">Translate</div> <hr>
+    <div id="Rotate">Rotate</div> <hr>
+    <div id="Rotate3D">Rotate3D</div> <hr>
+    <div id="skew">skew</div> <br> <hr>
+    <div id="scale">scale</div> <hr>
+    <div id="opacity">opacity</div> <hr>
+    <div id="RGBA">RGBA</div> <hr>
+    <div id="boxshadow">boxShadow</div> <hr>
+    <div id="textshadow">TextShadow</div> <hr>
+    <div id="borderradius">BorderRadius</div> <hr>
+    <div id="overflow">overflow overflow overflow overflow overflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflowoverflow overflow overflow overflow</div><hr>
+
+</body>
+</html
